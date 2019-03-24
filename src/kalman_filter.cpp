@@ -8,10 +8,7 @@ using std::endl;
 
 # define M_PI           3.14159265358979  /* pi */
 # define T_PI           6.28318530717958  /* 2 x pi */
-/* 
- * Please note that the Eigen library does not initialize 
- *   VectorXd or MatrixXd objects with zeros upon creation.
- */
+
 
 KalmanFilter::KalmanFilter() {}
 
