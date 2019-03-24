@@ -56,9 +56,14 @@ Result with fused LIDAR & RADAR measurements
 
 The images below show that only lidar or radar measurements give much less position accuracy then can be achived combining data from both sensors:
 
-Result with only lidar data          |  Result with only radar data
-:-------------------------:|:-------------------------:
-<img src="./img/lidar.jpg" width="400">  |   <img src="./img/radar.jpg" width="400"> 
+Result with only lidar data     
+:------------------------------------------------:
+<img src="./img/lidar.jpg" width="800">
+
+Result with only radar data
+:------------------------------------------------:
+ <img src="./img/radar.jpg" width="800"> 
+
 
 The EKF generate more accurate estimation of the object position.
 
