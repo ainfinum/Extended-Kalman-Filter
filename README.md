@@ -41,13 +41,13 @@ The main program can be built and run by doing the following from the project di
 ## 3. Results
 
 The following RMSE values has been achived using Extended Kalman Filter which combines lidar and radar measurements: 
-X: 0.0973
-Y: 0.0845
-VX: 0.4513
-VY: 0.4399
+* X: 0.0973
+* Y: 0.0845
+* VX: 0.4513
+* VY: 0.4399
 
 
-The following image shows the result in the simulator for Dataset 1 using combined lidar and radar measurements:
+The following image shows the simulator result for the Dataset 1 using combined lidar and radar measurements:
 
 Result with fused LIDAR & RADAR measurements
 :------------------------------------------------:
@@ -56,7 +56,7 @@ Result with fused LIDAR & RADAR measurements
 
 The images below show that only lidar or radar measurements give much less position accuracy then can be achived combining data from both sensors:
 
-Result lidar data          |  Result with radar data
+Result with only lidar data          |  Result with only radar data
 :-------------------------:|:-------------------------:
 <img src="./img/lidar.jpg" width="400">  |   <img src="./img/radar.jpg" width="400"> 
 
