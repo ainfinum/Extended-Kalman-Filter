@@ -3,7 +3,7 @@
 
 ## 1. Introduction
 
-In this project I've implemented an Extended Kalman Filter in C++. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter. I implemented a sensor fusion which combines lidar and radar measurements to track the bicycle's position and velocity.
+In this project I've implemented an Extended Kalman Filter in C++ to estimate the state of a moving object of interest with noisy lidar and radar measurements. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter. I implemented a sensor fusion which combines lidar and radar measurements to track the bicycle's position and velocity.
 
  
 ## 2. Project Environment
@@ -11,13 +11,12 @@ In this project I've implemented an Extended Kalman Filter in C++. The simulator
 The project consists of the following files:
 
 * [main.cpp] - the main protocol that main.cpp uses for uWebSocketIO in communicating with the simulator.
-* [FusionEKF.cpp] - Initialization of Extended Kalman Filter object state. Call Predict(), Update() or UpdateEKF() depending on incomming data from radar or lidar.
+* [FusionEKF.cpp] - Initialization of Extended Kalman Filter object state. Call Predict(), Update() or UpdateEKF() function for a given sensor type.
 * [kalman_filter.cpp] - Kalman Filter Predict(), Update() and UpdateEKF() methods for prediction and radar & lidar updates. 
 * [tools.cpp] - Methods to calculate Jacobian and RMSE values.
 
 
 In order to run the project uWebSocketIO should be installed.
-This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
 The main program can be built and run by doing the following from the project directory.
 
@@ -27,16 +26,11 @@ The main program can be built and run by doing the following from the project di
 
 ### Important Dependencies
 
+* [uWebSocketIO] (https://github.com/uWebSockets/uWebSockets)
+* [Term 2 Simulator] (https://github.com/udacity/self-driving-car-sim/releases)
 * cmake >= 3.5
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 * gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
 
 ## 3. Results
 
