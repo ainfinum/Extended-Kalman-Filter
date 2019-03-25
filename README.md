@@ -26,8 +26,8 @@ The main program can be built and run by doing the following from the project di
 
 ### Important Dependencies
 
-* [uWebSocketIO] (https://github.com/uWebSockets/uWebSockets)
-* [Term 2 Simulator] (https://github.com/udacity/self-driving-car-sim/releases)
+* uWebSocketIO [download] (https://github.com/uWebSockets/uWebSockets)
+* Term 2 Simulator [download] (https://github.com/udacity/self-driving-car-sim/releases)
 * cmake >= 3.5
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
 * gcc/g++ >= 5.4
