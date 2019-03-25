@@ -1,5 +1,5 @@
 ## Self-Driving Car Engineer Nanodegree Program
-# Project: Implementation of an Extended Kalman Filter using C++
+# Project: Implementation of an Extended Kalman Filter in C++
 
 ## 1. Introduction
 
