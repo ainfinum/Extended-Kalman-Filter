@@ -10,10 +10,10 @@ In this project I've implemented an Extended Kalman Filter in C++ to estimate th
 
 The project consists of the following files:
 
-* [main.cpp] - the main protocol that main.cpp uses for uWebSocketIO in communicating with the simulator.
-* [FusionEKF.cpp] - Initialization of Extended Kalman Filter object state. Call Predict(), Update() or UpdateEKF() function for a given sensor type.
-* [kalman_filter.cpp] - Kalman Filter Predict(), Update() and UpdateEKF() methods for prediction and radar & lidar updates. 
-* [tools.cpp] - Methods to calculate Jacobian and RMSE values.
+* main.cpp - the main protocol that main.cpp uses for uWebSocketIO in communicating with the simulator.
+* FusionEKF.cpp - Initialization of Extended Kalman Filter object state. Call Predict(), Update() or UpdateEKF() function for a given sensor type.
+* kalman_filter.cpp - Kalman Filter Predict(), Update() and UpdateEKF() methods for prediction and radar & lidar updates. 
+* tools.cpp - Methods to calculate Jacobian and RMSE values.
 
 
 In order to run the project uWebSocketIO should be installed.
