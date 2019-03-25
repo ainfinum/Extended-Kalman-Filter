@@ -43,19 +43,16 @@ The following RMSE values has been achived using Extended Kalman Filter which co
 
 The following image shows the simulator result for the Dataset 1 using combined lidar and radar measurements:
 
-Result with fused LIDAR & RADAR measurements
-:------------------------------------------------:
+### Result with fused LIDAR & RADAR measurements
 <img src="./img/lidar-and-radar.jpg" width="800">
 
 
 The images below show that only lidar or radar measurements give much less position accuracy then can be achived combining data from both sensors:
 
-Result with only lidar data     
-:------------------------------------------------:
+### Result with only lidar data     
 <img src="./img/lidar.jpg" width="800">
 
-Result with only radar data
-:------------------------------------------------:
+### Result with only radar data
  <img src="./img/radar.jpg" width="800"> 
 
 
